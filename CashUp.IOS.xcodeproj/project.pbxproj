@@ -43,6 +43,7 @@
 		1C46674F1BB5210700C20BDF /* CashUp.IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashUp.IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4667541BB5210700C20BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C4667551BB5210700C20BDF /* CashUp_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashUp_IOSTests.m; sourceTree = "<group>"; };
+		1C4667601BB5251700C20BDF /* Step1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		1C4667351BB5210700C20BDF /* CashUp.IOS */ = {
 			isa = PBXGroup;
 			children = (
+				1C46675F1BB5243900C20BDF /* Applications */,
 				1C46673A1BB5210700C20BDF /* AppDelegate.h */,
 				1C46673B1BB5210700C20BDF /* AppDelegate.m */,
 				1C46673D1BB5210700C20BDF /* FirstViewController.h */,
@@ -122,6 +124,14 @@
 				1C4667541BB5210700C20BDF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C46675F1BB5243900C20BDF /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				1C4667601BB5251700C20BDF /* Step1.h */,
+			);
+			name = Applications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
